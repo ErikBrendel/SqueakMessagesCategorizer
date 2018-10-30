@@ -1,0 +1,14 @@
+{
+	"category" : "Categorizer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CategorizerMain",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
