@@ -1,0 +1,15 @@
+{
+	"category" : "Categorizer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"originalObject",
+		"metricValue" ],
+	"name" : "MetricValue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

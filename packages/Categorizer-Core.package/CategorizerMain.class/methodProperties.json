@@ -1,5 +1,7 @@
 {
 	"class" : {
-		"test" : "EB 10/30/2018 14:51" },
+		"test" : "EB 10/30/2018 14:51",
+		"testOutlierCategories" : "EB 10/30/2018 15:14",
+		"testOutlierDetection" : "EB 10/30/2018 15:13" },
 	"instance" : {
 		 } }

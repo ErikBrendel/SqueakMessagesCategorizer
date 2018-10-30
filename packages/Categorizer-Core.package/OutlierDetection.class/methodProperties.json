@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"onMetricObjects:" : "EB 10/28/2018 16:29",
+		"onObjects:withMetric:" : "EB 10/28/2018 16:22" },
+	"instance" : {
+		"findBounds" : "EB 10/28/2018 17:02",
+		"findOutliersSorted" : "EB 10/28/2018 17:03",
+		"metricObjects" : "EB 10/28/2018 16:31",
+		"metricObjects:" : "EB 10/28/2018 16:30",
+		"outlierFactor:" : "EB 10/28/2018 17:00" } }
