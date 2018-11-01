@@ -1,0 +1,16 @@
+{
+	"category" : "Categorizer-Core",
+	"classinstvars" : [
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EB 11/1/2018 19:09",
+	"instvars" : [
+		"allCategories",
+		"methodsPerCategory",
+		"occurrencesPerMethod" ],
+	"name" : "CategorizerCache",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

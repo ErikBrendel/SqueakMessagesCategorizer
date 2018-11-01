@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"default" : "EB 11/1/2018 18:26" },
+	"instance" : {
+		"allCategories" : "EB 11/1/2018 18:51",
+		"allMethodsIn:" : "EB 11/1/2018 19:09",
+		"allOccurencesOf:" : "EB 11/1/2018 19:11",
+		"categoryHistogramOf:" : "EB 11/1/2018 19:29",
+		"clear" : "EB 11/1/2018 18:29",
+		"findAllCategories" : "EB 11/1/2018 18:52",
+		"findAllMethodsIn:" : "EB 11/1/2018 18:56",
+		"findAllOccurrencesOf:" : "EB 11/1/2018 19:20" } }
