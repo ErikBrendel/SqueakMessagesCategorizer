@@ -1,0 +1,15 @@
+{
+	"category" : "Categorizer-Core",
+	"classinstvars" : [
+		"globalStats" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "EB 11/6/2018 11:09",
+	"instvars" : [
+		"categoryName",
+		"cacheDict" ],
+	"name" : "CategoryStats",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

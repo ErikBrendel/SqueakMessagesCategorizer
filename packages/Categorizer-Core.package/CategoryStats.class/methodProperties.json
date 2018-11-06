@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"global" : "EB 11/6/2018 11:43",
+		"newOn:" : "EB 11/6/2018 11:10" },
+	"instance" : {
+		"cacheDict" : "EB 11/6/2018 11:18",
+		"categorizerCache" : "EB 11/6/2018 11:24",
+		"categoryName" : "EB 11/6/2018 11:10",
+		"categoryName:" : "EB 11/6/2018 11:10",
+		"clear" : "EB 11/6/2018 11:45",
+		"getCached:ifAbsentPut:" : "EB 11/6/2018 11:32",
+		"methods" : "EB 11/6/2018 11:27",
+		"numberOfClasses" : "EB 11/6/2018 11:34",
+		"numberOfMethods" : "EB 11/6/2018 11:27",
+		"numberOfUniqueMethods" : "EB 11/6/2018 11:34" } }
