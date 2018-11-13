@@ -1,6 +1,14 @@
 {
 	"class" : {
-		"defaultExtent" : "EB 11/13/2018 11:11",
+		"defaultExtent" : "EB 11/13/2018 11:16",
 		"open" : "EB 11/13/2018 11:06" },
 	"instance" : {
-		"buildWith:" : "EB 11/13/2018 11:10" } }
+		"buildCategoryListWith:" : "EB 11/13/2018 11:37",
+		"buildSearchBarWith:" : "EB 11/13/2018 11:37",
+		"buildSearchResultListWith:" : "EB 11/13/2018 11:36",
+		"buildWith:" : "EB 11/13/2018 11:19",
+		"categoryIndex" : "EB 11/13/2018 11:34",
+		"categoryList" : "EB 11/13/2018 11:34",
+		"searchQuery" : "EB 11/13/2018 11:31",
+		"searchResultIndex" : "EB 11/13/2018 11:33",
+		"searchResultList" : "EB 11/13/2018 11:31" } }

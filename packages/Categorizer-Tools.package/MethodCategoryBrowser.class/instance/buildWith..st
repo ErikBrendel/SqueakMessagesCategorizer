@@ -4,4 +4,8 @@ buildWith: aBuilder
 		model: self;
 		label: #labelString;
 		extent: self class defaultExtent;
+		children: {
+			self buildSearchBarWith: aBuilder.
+			self buildSearchResultListWith: aBuilder.
+			self buildCategoryListWith: aBuilder};
 		yourself)
