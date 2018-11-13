@@ -1,0 +1,14 @@
+{
+	"category" : "Categorizer-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MethodCategoryBrowser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

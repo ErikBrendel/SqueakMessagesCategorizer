@@ -1,3 +1,4 @@
 OrderedDictionary {
-	'packages\/Categorizer-Core.package' : #SquotCypressCodeSerializer
+	'packages\/Categorizer-Core.package' : #SquotCypressCodeSerializer,
+	'packages\/Categorizer-Tools.package' : #SquotCypressCodeSerializer
 }
