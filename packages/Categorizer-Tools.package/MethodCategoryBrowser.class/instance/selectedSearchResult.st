@@ -1,3 +1,3 @@
 model interface
 selectedSearchResult
-	^ self searchResultList first
+	^ selectedMethod

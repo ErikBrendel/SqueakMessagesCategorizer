@@ -1,3 +1,4 @@
 model interface
 searchQuery
-	^ 'Lol'
+	searchQuery ifNil: [searchQuery := ''].
+	^ searchQuery

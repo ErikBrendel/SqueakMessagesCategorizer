@@ -1,3 +1,3 @@
 model interface
 selectedSearchResult: anObject 
-	"ignore lol"
+	selectedMethod := anObject

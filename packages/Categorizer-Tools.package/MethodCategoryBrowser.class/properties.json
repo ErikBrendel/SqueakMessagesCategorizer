@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"searchQuery",
+		"searchResults",
+		"selectedMethod",
+		"categoryHistogram" ],
 	"name" : "MethodCategoryBrowser",
 	"pools" : [
 		 ],
