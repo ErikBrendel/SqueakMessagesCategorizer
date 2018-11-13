@@ -1,10 +1,10 @@
-as yet unclassified
+building
 buildSearchResultListWith: aBuilder
 	^ aBuilder pluggableListSpec new
 		model: self;
 		list: #searchResultList;
-		getIndex: #searchResultIndex;
-		setIndex: #searchResultIndex:;
+		getSelected: #selectedSearchResult;
+		setSelected: #selectedSearchResult:;
 		frame: (LayoutFrame new
 			leftFraction: 0;
 			topFraction: 0.2;

@@ -1,10 +1,10 @@
-as yet unclassified
+building
 buildCategoryListWith: aBuilder
 	^ aBuilder pluggableListSpec new
 		model: self;
 		list: #categoryList;
-		getIndex: #categoryIndex;
-		setIndex: #categoryIndex:;
+		getSelected: #selectedCategory;
+		setSelected: #selectedCategory:;
 		frame: (LayoutFrame new
 			leftFraction: 0.5;
 			topFraction: 0;

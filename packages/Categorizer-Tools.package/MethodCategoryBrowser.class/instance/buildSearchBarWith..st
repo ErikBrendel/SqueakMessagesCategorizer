@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildSearchBarWith: aBuilder
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
