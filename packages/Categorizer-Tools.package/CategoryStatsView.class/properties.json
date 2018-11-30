@@ -1,0 +1,15 @@
+{
+	"category" : "Categorizer-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"searchQuery",
+		"statsList" ],
+	"name" : "CategoryStatsView",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

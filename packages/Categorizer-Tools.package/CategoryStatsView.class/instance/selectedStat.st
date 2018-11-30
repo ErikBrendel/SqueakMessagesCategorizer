@@ -1,0 +1,3 @@
+model interface
+selectedStat
+	^ nil

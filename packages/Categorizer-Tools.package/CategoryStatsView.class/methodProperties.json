@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultExtent" : "EB 11/30/2018 13:48",
+		"open" : "EB 11/13/2018 11:06",
+		"pleaseSearchMessage" : "EB 11/30/2018 13:31" },
+	"instance" : {
+		"buildSearchBarWith:" : "EB 11/30/2018 13:40",
+		"buildStatsListWith:" : "EB 11/30/2018 13:40",
+		"buildWith:" : "EB 11/30/2018 13:35",
+		"createStatsListFor:" : "EB 11/30/2018 13:53",
+		"searchQuery" : "EB 11/13/2018 12:05",
+		"searchQuery:" : "EB 11/30/2018 13:37",
+		"selectedStat" : "EB 11/30/2018 13:38",
+		"selectedStat:" : "EB 11/30/2018 13:38",
+		"statsList" : "EB 11/30/2018 13:42" } }
