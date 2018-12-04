@@ -5,7 +5,7 @@ findAllMethodsIn: aCategory
 	| methods |
 	methods := OrderedCollection new.
 	SystemNavigation default allBehaviorsDo:
-		[:x | (x allMethodsInCategory: aCategory) do:
+		[:x | (x allMethodsInCategoryWithoutSuperclasses: aCategory) do:
 			[:sel | methods add: (x -> sel)]].
 	^methods sort: [:a :b | a value <= b value].
 	

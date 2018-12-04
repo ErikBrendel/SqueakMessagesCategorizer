@@ -1,7 +1,7 @@
 as yet unclassified
 analyzeCategory: category
 	|stats global|
-	stats := CategoryStats newOn: category.
+	stats := CategoryStats newOn: category.self halt.
 	global := CategoryStats global.
 	
 	Transcript showln: '--- Category report: ', category, ' ---'.
