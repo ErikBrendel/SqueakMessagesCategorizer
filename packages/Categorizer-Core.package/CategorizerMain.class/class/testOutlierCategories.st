@@ -9,4 +9,4 @@ testOutlierCategories
 	cats := cats copyFrom: 1 to: 2000. "limit to some categories, it would take too long otherwise"
 	Inspector openOn: (OutlierDetection
 		onObjects: cats
-		withMetric: [:cat | (CategoryStats newOn: cat) numberOfPackages]) findOutliersSorted
+		withMetric: [:cat | (CategoryStats newOn: cat) averageMethodLength]) findOutliersSorted

@@ -1,0 +1,14 @@
+{
+	"category" : "Categorizer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"metricObjects" ],
+	"name" : "MultivariateOutlierDetection",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

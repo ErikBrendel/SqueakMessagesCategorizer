@@ -1,0 +1,13 @@
+{
+	"class" : {
+		"onMetricObjects:" : "EB 12/4/2018 19:15",
+		"onObjects:withMetrics:" : "EB 12/4/2018 19:15" },
+	"instance" : {
+		"calculateCovarianceMatrix:" : "EB 12/4/2018 21:17",
+		"calculateDistancesFrom:with:" : "EB 12/4/2018 23:22",
+		"calculateMeanVector" : "EB 12/4/2018 19:49",
+		"findOutliersSorted" : "EB 12/4/2018 23:32",
+		"mahalanobisDistanceBetween:and:using:" : "EB 12/4/2018 23:27",
+		"metricCount" : "EB 12/4/2018 19:32",
+		"metricObjects" : "EB 12/4/2018 19:16",
+		"metricObjects:" : "EB 12/4/2018 19:16" } }

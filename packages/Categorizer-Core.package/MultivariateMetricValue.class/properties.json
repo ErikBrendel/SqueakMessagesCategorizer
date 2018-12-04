@@ -1,0 +1,16 @@
+{
+	"category" : "Categorizer-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"originalObject",
+		"metricValues",
+		"compareValue" ],
+	"name" : "MultivariateMetricValue",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

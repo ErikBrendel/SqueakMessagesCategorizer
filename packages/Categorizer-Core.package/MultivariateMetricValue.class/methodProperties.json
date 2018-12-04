@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"newOn:andMetricGetters:" : "EB 12/4/2018 19:12",
+		"newOn:andMetrics:" : "EB 12/4/2018 19:12" },
+	"instance" : {
+		"<=" : "EB 12/4/2018 19:24",
+		"compareValue" : "EB 12/4/2018 19:18",
+		"compareValue:" : "EB 12/4/2018 19:18",
+		"metricAt:" : "EB 12/4/2018 19:14",
+		"metricCount" : "EB 12/4/2018 19:14",
+		"metrics" : "EB 12/4/2018 19:13",
+		"metrics:" : "EB 12/4/2018 19:18",
+		"object" : "EB 12/4/2018 19:14",
+		"object:" : "EB 12/4/2018 19:14",
+		"printOn:" : "EB 12/4/2018 19:51" } }
