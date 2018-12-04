@@ -1,8 +1,8 @@
 as yet unclassified
 testOutlierCategoriesMultivariate
-	| cats out |
+	| cats out result |
 	cats := CategorizerCache default allCategories.
-	cats := cats copyFrom: 1 to: 500. "limit to some categories, it would take too long otherwise"
+	"cats := cats copyFrom: 1 to: 500." "limit to some categories, it would take too long otherwise"
 	
 	out := MultivariateOutlierDetection
 		onObjects: cats
@@ -13,5 +13,11 @@ testOutlierCategoriesMultivariate
 			[:cat | (CategoryStats newOn: cat) numberOfMethods].
 			[:cat | (CategoryStats newOn: cat) numberOfUniqueMethods].
 		}.
-		
-	Inspector openOn: out findOutliersSorted
+	
+	result := out findOutliersSorted.
+	
+	Clipboard default clipboardText: 'name;mahalanobisDistance;LOC;packages;classes;methods;uniqueMethods', Character cr,
+		(((result collect: [:m | (m metrics as: OrderedCollection) addFirst: m compareValue asString; addFirst: m object; yourself])
+			collect: [:data | data reduce: [:accu :next | accu , ';' , next]]) reduce: [:accu :next | accu , Character cr , next]).
+			
+	Inspector openOn: result
