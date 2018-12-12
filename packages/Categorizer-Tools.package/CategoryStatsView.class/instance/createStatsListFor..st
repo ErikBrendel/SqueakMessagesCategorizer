@@ -5,6 +5,7 @@ createStatsListFor: categoryName
 	global := CategoryStats global.
 	line := [:selector | (stats perform: selector) asString, ' / ', (global perform: selector) asString].
 	^  {
+		('           ', categoryName, ' / global').
 		('Packages: ' , (line value: #numberOfPackages)).
 		('In classes: ', (line value: #numberOfClasses)).
 		('Methods: ' , (line value: #numberOfMethods)).
