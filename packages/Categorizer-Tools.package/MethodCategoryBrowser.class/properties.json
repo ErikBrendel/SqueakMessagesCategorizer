@@ -9,7 +9,8 @@
 		"searchQuery",
 		"searchResults",
 		"selectedMethod",
-		"categoryHistogram" ],
+		"categoryHistogram",
+		"selectedCategory" ],
 	"name" : "MethodCategoryBrowser",
 	"pools" : [
 		 ],

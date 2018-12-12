@@ -1,3 +1,3 @@
 model interface
 selectedCategory: anObject 
-	"ignore lol"
+	selectedCategory := anObject

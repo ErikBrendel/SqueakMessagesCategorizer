@@ -1,0 +1,3 @@
+building
+openStats
+	CategoryStatsView openOn: self selectedCategoryName

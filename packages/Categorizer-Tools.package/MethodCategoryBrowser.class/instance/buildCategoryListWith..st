@@ -3,8 +3,9 @@ buildCategoryListWith: aBuilder
 	^ aBuilder pluggableListSpec new
 		model: self;
 		list: #categoryList;
-		getSelected: #selectedCategory;
-		setSelected: #selectedCategory:;
+		getIndex: #selectedCategory;
+		setIndex: #selectedCategory:;
+		menu: #categoryMenu:;
 		frame: (LayoutFrame new
 			leftFraction: 0.5;
 			topFraction: 0;
