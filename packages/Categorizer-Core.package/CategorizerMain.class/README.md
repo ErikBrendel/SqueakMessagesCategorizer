@@ -1,0 +1,1 @@
+Static example methods showing and testing the functionality of this categorizer system.

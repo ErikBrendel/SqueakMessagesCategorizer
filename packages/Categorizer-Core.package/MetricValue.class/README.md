@@ -1,0 +1,1 @@
+A MetricValue is a wrapped object and any numeric value associated with it.
