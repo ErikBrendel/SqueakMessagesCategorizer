@@ -1,7 +1,7 @@
 as yet unclassified
 testOutlierPointsMultivariate
 	|out data|
-	data := {
+	data := { "all these points are roughly on a diagonal with an ascend of 0.5"
 		1@2.0.
 		2@2.0.
 		3@3.5.
@@ -24,4 +24,5 @@ testOutlierPointsMultivariate
 			[:p | p x].
 			[:p | p y]
 		}.
+	"csv export to clipboard"
 	Clipboard default clipboardText: 'mahalanobisDistance;x;y', Character cr, (((out findOutliersSorted collect: [:m | (m metrics as: OrderedCollection) addFirst: m compareValue asString; yourself]) collect: [:d | d reduce: [:accu :next | accu , ';' , next]]) reduce: [:accu :next | accu , Character cr , next])

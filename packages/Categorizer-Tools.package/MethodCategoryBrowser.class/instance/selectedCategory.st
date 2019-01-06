@@ -1,3 +1,3 @@
 model interface
 selectedCategory
-	^ selectedCategory ifNil: [selectedCategory := 0]
+	^ selectedCategory ifNil: [selectedCategory := 1]

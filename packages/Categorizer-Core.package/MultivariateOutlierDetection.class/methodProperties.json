@@ -1,7 +1,8 @@
 {
 	"class" : {
 		"onMetricObjects:" : "EB 12/4/2018 19:15",
-		"onObjects:withMetrics:" : "EB 12/4/2018 19:15" },
+		"onObjects:withMetrics:" : "EB 12/4/2018 19:15",
+		"onObjects:withMetrics:progress:" : "EB 1/6/2019 13:45" },
 	"instance" : {
 		"calculateCovarianceMatrix:" : "EB 12/4/2018 21:17",
 		"calculateDistancesFrom:with:" : "EB 12/4/2018 23:22",

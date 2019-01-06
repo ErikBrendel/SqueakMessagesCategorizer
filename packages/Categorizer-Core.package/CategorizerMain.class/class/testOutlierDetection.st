@@ -5,7 +5,7 @@ testOutlierDetection
 
 	|list metric detection|
 	
-	list := #(152 561 1457 32153 9854 1231). "1231 is the worst outlier, all others have their metric aaround 50"
+	list := #(152 561 1457 32153 9854 1231). "1231 is the worst outlier, all others have their metric around 50"
 	metric := [:x | x \\ 100].
 
 	detection := OutlierDetection onObjects: list withMetric: metric.
