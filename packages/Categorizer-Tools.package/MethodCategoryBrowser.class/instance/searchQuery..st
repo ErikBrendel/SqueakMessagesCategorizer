@@ -7,4 +7,3 @@ searchQuery: newString
 	self changed: #searchResultList.
 	categoryHistogram := nil.
 	self changed: #categoryList.
-	Transcript showln: self searchQuery
