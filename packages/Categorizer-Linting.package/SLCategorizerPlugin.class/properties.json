@@ -1,0 +1,14 @@
+{
+	"category" : "Categorizer-Linting",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLCategorizerPlugin",
+	"pools" : [
+		 ],
+	"super" : "SLPlugIn",
+	"type" : "normal" }

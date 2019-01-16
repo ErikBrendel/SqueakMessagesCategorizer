@@ -1,3 +1,3 @@
-as yet unclassified
+comparisititiationn
 <= otherMetricValue
 	^ self metric <= otherMetricValue metric
