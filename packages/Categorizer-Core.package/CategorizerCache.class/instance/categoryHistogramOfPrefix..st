@@ -1,9 +1,9 @@
 high-level-access
-categoryHistogramOf: aMethodDescriptor
+categoryHistogramOfPrefix: aMethodPrefix
 	"see in which categories the given method selector can be found how often"
 	|counter|
 	counter := Dictionary new.
-	(self allOccurencesOf: aMethodDescriptor) do: [:classAndCategory | 
+	(self allOccurencesOfPrefix: aMethodPrefix) do: [:classAndCategory | 
 		counter
 			at: classAndCategory value
 			ifPresent: [:val | counter at: classAndCategory value put: val + 1]

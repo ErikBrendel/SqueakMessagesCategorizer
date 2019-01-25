@@ -1,4 +1,4 @@
-as yet unclassified
+private
 calculateMeanVector
 	|mean data|
 	mean := OrderedCollection new.

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 findOutliersSorted
 	
 	"sort by metric to find the bounds"

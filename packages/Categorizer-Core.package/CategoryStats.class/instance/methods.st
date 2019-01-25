@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 methods
 	^ self categorizerCache allMethodsIn: self categoryName

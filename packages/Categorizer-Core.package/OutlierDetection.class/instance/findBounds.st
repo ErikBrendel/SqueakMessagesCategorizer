@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 findBounds
 	"metricValues should be sorted by their metric"
 	"bounds are inclusive"

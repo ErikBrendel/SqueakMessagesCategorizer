@@ -4,3 +4,4 @@ clear
 	allCategories := nil.
 	methodsPerCategory := nil.
 	occurrencesPerMethod := nil.
+	occurrencesPerMethodPrefix := nil.

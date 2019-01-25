@@ -1,4 +1,4 @@
-as yet unclassified
+private
 calculateCovarianceMatrix: mean
 	^ Matrix new: self metricCount tabulate: [:a :b | |mean_a mean_b|
 			mean_a := mean at: a.

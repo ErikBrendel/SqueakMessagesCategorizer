@@ -1,4 +1,4 @@
-as yet unclassified
+slot getters/setters
 getCached: cacheKey ifAbsentPut: calculationBlock
 	^ self cacheDict
 		at: cacheKey

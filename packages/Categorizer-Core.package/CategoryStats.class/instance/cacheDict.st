@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 cacheDict
 	^ cacheDict ifNil: [cacheDict := Dictionary new]

@@ -1,4 +1,4 @@
-as yet unclassified
+replacing
 replaceObjectsWithSamples: resolution
 	"instead of the real objects, we want sample points in the same data range"
 	| min max samples counter |
