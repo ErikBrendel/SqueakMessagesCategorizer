@@ -1,3 +1,3 @@
-as yet unclassified
+category name
 categoryName: newName
 	categoryName := newName

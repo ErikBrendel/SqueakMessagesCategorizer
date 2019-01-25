@@ -1,3 +1,3 @@
-as yet unclassified
+comparing
 <= otherMetricValue
 	^ self compareValue <= otherMetricValue compareValue

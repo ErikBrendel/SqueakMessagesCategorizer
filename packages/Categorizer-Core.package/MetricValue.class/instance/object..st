@@ -1,3 +1,3 @@
-as yet unclassified
+accessing - object
 object: newObject
 	originalObject := newObject

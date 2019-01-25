@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 clear
 	cacheDict := nil.
 	

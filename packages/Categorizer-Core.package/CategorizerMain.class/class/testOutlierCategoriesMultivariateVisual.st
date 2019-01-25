@@ -34,5 +34,5 @@ testOutlierCategoriesMultivariateVisual
 	
 
 	('name;mahalanobisDistance;classes;methods', Character cr,
-		((((out visualizeDistances: 50) reversed collect: [:m | ((m metrics as: OrderedCollection) collect: [:n | (n + 1) log]) addFirst: (m compareValue \\ 10) asString; addFirst: m object; yourself])
+		((((out visualizeDistances: 100) reversed collect: [:m | ((m metrics as: OrderedCollection) collect: [:n | (n + 1) log]) addFirst: (m compareValue \\ 10) asString; addFirst: m object; yourself])
 			collect: [:data | data reduce: [:accu :next | accu , ';' , next]]) reduce: [:accu :next | accu , Character cr , next])) edit.
