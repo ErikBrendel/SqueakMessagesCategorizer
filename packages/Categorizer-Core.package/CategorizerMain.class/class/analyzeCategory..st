@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 analyzeCategory: category
 	|stats global|
 	stats := CategoryStats newOn: category.self halt.

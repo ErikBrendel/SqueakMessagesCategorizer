@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOutlierCategories
 	"applies the 'averageMethodLength' metric onto method categories"
 	"uses outlier detection to show the list of categories sorted by how outliery they are"

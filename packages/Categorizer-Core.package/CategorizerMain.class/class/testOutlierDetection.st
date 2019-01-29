@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOutlierDetection
 	"test the outlier detection mechanism: uses several numbers, and their last two digits as metric"
 	"CategorizerMain testOutlierDetection"

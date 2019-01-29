@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOutlierCategoriesMultivariate
 	| cats out result |
 	cats := CategorizerCache default allCategories.

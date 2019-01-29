@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testOutlierPointsMultivariate
 	|out data|
 	data := { "all these points are roughly on a diagonal with an ascend of 0.5"
