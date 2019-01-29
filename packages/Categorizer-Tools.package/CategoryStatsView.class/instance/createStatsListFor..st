@@ -11,4 +11,5 @@ createStatsListFor: categoryName
 		('Methods: ' , (line value: #numberOfMethods)).
 		('Unique methods: ' , (line value: #numberOfUniqueMethods)).
 		('Average LOC: ' , (line value: #averageMethodLength)).
+		('Methods commented: ' , (line value: #commentFactorPercent)).
 		}
