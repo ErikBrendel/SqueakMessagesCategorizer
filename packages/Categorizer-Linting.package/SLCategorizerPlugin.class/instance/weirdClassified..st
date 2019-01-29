@@ -6,5 +6,4 @@ weirdClassified: aSLMethodTestObject
 	aSLMethodTestObject ifClassTestChildrenWith: #weirdClassified:.
 	aSLMethodTestObject shouldBeMethod.
 	
-	
-	^ self successResult: (self classificationFactorOf: aSLMethodTestObject methodSelector) < 0.3.
+	^ self successResult: (self classificationFactorOf: aSLMethodTestObject) < 0.3.

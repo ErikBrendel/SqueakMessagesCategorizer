@@ -7,4 +7,4 @@ slightlyWeirdClassified: aSLMethodTestObject
 	aSLMethodTestObject shouldBeMethod.
 	
 	
-	^ self successResult: (self classificationFactorOf: aSLMethodTestObject methodSelector) < 0.6.
+	^ self successResult: (self classificationFactorOf: aSLMethodTestObject) < 0.6.

@@ -2,7 +2,7 @@ helper
 classificationFactorOf: aSLMethodTestObject
 	| category hist hitCount missCount |
 	category := self categoryOf: aSLMethodTestObject.
-	hist := CategorizerCache default categoryHistogramOf: aSLMethodTestObject.
+	hist := CategorizerCache default categoryHistogramOf: aSLMethodTestObject methodSelector.
 	hitCount := 0.
 	missCount := 0.
 	hist do: [:catAndCount | 
