@@ -1,4 +1,4 @@
-tests
+helper
 categoryOf: aSLMethodTestObject
 	|class|
 	class := aSLMethodTestObject parent testClass.

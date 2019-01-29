@@ -1,6 +1,5 @@
 tests
 newCategoryInvention: aSLMethodTestObject
-	
 	<slTestName: 'New Category Invention' 
 	description: 'Tests, whether a given method is categorized under a category that only exists in this one class.'>
 
