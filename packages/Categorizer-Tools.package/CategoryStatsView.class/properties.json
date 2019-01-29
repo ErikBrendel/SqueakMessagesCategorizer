@@ -7,7 +7,10 @@
 	"commentStamp" : "EB 1/5/2019 11:31",
 	"instvars" : [
 		"searchQuery",
-		"statsList" ],
+		"detail",
+		"statsList",
+		"detailsList",
+		"categoryStats" ],
 	"name" : "CategoryStatsView",
 	"pools" : [
 		 ],

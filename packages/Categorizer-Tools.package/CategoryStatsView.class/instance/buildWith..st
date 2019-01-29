@@ -6,5 +6,6 @@ buildWith: aBuilder
 		extent: self class defaultExtent;
 		children: {
 			self buildSearchBarWith: aBuilder.
-			self buildStatsListWith: aBuilder};
+			self buildStatsListWith: aBuilder.
+			self buildDetailListWith: aBuilder.};
 		yourself)
