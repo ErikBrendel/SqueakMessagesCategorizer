@@ -1,3 +1,3 @@
 categorization
 histogramIsBigEnough: histogram
-	^ (self histogramSize: histogram) >= 5
+	^ (self histogramSize: histogram) >= 8
