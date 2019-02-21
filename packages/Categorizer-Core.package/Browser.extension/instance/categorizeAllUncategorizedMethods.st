@@ -10,7 +10,7 @@ categorizeAllUncategorizedMethods
 		found := (organizers collect: [ :org | org categoryOfElement: sel])
 			detect: [:ea | ea ~= ClassOrganizer default and: [ ea ~= nil]]
 			ifNone: [].
-		"found ifNil: [found := CategorizerCache default bestCategoryFor: sel]."
+		found ifNil: [found := CategorizerCache default bestCategoryFor: sel].
 		found ifNotNil: [organizer classify: sel under: found]].
 
 	self changed: #messageCategoryList

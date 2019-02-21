@@ -6,7 +6,7 @@
 		"allMethodsIn:" : "EB 11/1/2018 19:09",
 		"allOccurencesOf:" : "EB 11/1/2018 19:11",
 		"allOccurencesOfPrefix:" : "EB 1/25/2019 10:02",
-		"bestCategoryFor:" : "EB 1/25/2019 10:31",
+		"bestCategoryFor:" : "EB 2/21/2019 11:13",
 		"categoryHistogramOf:" : "EB 1/25/2019 10:40",
 		"categoryHistogramOfList:" : "EB 1/25/2019 10:39",
 		"categoryHistogramOfPrefix:" : "EB 1/25/2019 10:40",
@@ -15,4 +15,8 @@
 		"findAllMethodsIn:" : "EB 12/3/2018 10:23",
 		"findAllOccurrencesOf:" : "EB 11/1/2018 19:20",
 		"findAllOccurrencesOfPrefix:" : "EB 1/25/2019 10:08",
+		"histogramHasUniqueBest:" : "EB 2/21/2019 11:07",
+		"histogramIsBigEnough:" : "EB 2/21/2019 11:01",
+		"histogramSize:" : "EB 2/21/2019 11:01",
+		"if:isGoodFor:do:" : "EB 2/21/2019 11:14",
 		"removeUnclassifiedFromHistogram:" : "EB 1/25/2019 10:29" } }

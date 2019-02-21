@@ -1,3 +1,3 @@
-high-level-access
+categorization
 removeUnclassifiedFromHistogram: histogram
 	^ histogram select: [:a | a key ~= Categorizer default]
