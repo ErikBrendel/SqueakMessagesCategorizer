@@ -1,4 +1,4 @@
-accessing
+private
 findBounds
 	"metricValues should be sorted by their metric"
 	"bounds are inclusive"

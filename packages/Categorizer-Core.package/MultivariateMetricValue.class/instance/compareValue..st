@@ -1,3 +1,3 @@
-private
+accessing
 compareValue: newCompareValue
 	compareValue := newCompareValue.

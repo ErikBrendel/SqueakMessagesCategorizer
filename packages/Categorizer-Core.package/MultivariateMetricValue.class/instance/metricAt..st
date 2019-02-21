@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 metricAt: metricIndex
 	^ self metrics at: metricIndex

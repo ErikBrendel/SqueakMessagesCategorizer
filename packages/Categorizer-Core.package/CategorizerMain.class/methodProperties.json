@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"analyzeCategory:" : "EB 11/27/2018 16:40",
-		"resetCategoriesOf:" : "FH 1/29/2019 22:15",
+		"resetCategoriesOf:" : "EB 2/21/2019 17:53",
 		"testOutlierCategories" : "EB 1/6/2019 13:54",
-		"testOutlierCategoriesMultivariate" : "EB 1/21/2019 15:57",
-		"testOutlierCategoriesMultivariateVisual" : "EB 2/21/2019 11:54",
+		"testOutlierCategoriesMultivariate" : "EB 2/21/2019 18:01",
+		"testOutlierCategoriesMultivariateVisual" : "EB 2/21/2019 18:04",
 		"testOutlierDetection" : "EB 1/6/2019 13:55",
-		"testOutlierPointsMultivariate" : "EB 1/6/2019 13:57" },
+		"testOutlierPointsMultivariate" : "EB 2/21/2019 18:06" },
 	"instance" : {
 		 } }

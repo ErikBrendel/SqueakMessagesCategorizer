@@ -1,0 +1,1 @@
+This class adds new rules to the SWALinter that operate on the categories of methods.

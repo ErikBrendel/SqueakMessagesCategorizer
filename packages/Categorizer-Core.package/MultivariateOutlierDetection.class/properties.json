@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "EB 1/5/2019 11:27",
+	"commentStamp" : "EB 2/21/2019 18:11",
 	"instvars" : [
 		"metricObjects" ],
 	"name" : "MultivariateOutlierDetection",

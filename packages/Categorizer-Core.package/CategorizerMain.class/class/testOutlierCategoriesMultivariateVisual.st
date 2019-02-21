@@ -1,8 +1,7 @@
 tests
 testOutlierCategoriesMultivariateVisual
-	"
-	CategorizerMain testOutlierCategoriesMultivariateVisual
-	"
+	"like testOutlierCategoriesMultivariate, but opens the result csv data in workspaces"
+	"CategorizerMain testOutlierCategoriesMultivariateVisual"
 	| cats out result r rv |
 	r := Random new.
 	rv := [(r next - 0.5) * 0.1].
@@ -14,11 +13,11 @@ testOutlierCategoriesMultivariateVisual
 		out := MultivariateOutlierDetection
 			onObjects: cats
 			withMetrics: {
-				[:cat | (CategoryStats newOn: cat) numberOfPackages].
-				[:cat | (CategoryStats newOn: cat) averageMethodLength].
+				"[:cat | (CategoryStats newOn: cat) numberOfPackages]."
+				"[:cat | (CategoryStats newOn: cat) averageMethodLength]."
 				[:cat | (CategoryStats newOn: cat) numberOfClasses].
 				[:cat | (CategoryStats newOn: cat) numberOfMethods].
-				[:cat | (CategoryStats newOn: cat) numberOfUniqueMethods].
+				"[:cat | (CategoryStats newOn: cat) numberOfUniqueMethods]."
 			}
 			progress: bar.
 	].
@@ -32,7 +31,7 @@ testOutlierCategoriesMultivariateVisual
 		(((result reversed collect: [:m | ((m metrics as: OrderedCollection) collect: [:n | (n + 1) log + rv value]) addFirst: m compareValue asString; addFirst: m object; yourself])
 			collect: [:data | data reduce: [:accu :next | accu , ';' , next]]) reduce: [:accu :next | accu , Character cr , next])) edit.
 	
-
+	"reference data: uniformly distributed fake-categories and their mahalanobis distances in the same space as the categories"
 	('name;mahalanobisDistance;classes;methods', Character cr,
-		((((out visualizeDistances: 20) reversed collect: [:m | ((m metrics as: OrderedCollection) collect: [:n | (n + 1) log]) addFirst: (m compareValue \\ 10) asString; addFirst: m object; yourself])
+		((((out visualizeDistances: 100) reversed collect: [:m | ((m metrics as: OrderedCollection) collect: [:n | (n + 1) log]) addFirst: (m compareValue \\ 10) asString; addFirst: m object; yourself])
 			collect: [:data | data reduce: [:accu :next | accu , ';' , next]]) reduce: [:accu :next | accu , Character cr , next])) edit.

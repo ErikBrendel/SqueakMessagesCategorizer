@@ -1,4 +1,4 @@
-slot getters/setters
+accessing
 getCached: cacheKey ifAbsentPut: calculationBlock
 	^ self cacheDict
 		at: cacheKey

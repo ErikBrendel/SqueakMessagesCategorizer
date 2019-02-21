@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 metricCount
 	^ self metricObjects first metricCount

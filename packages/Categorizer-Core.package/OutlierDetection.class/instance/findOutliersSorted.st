@@ -1,6 +1,5 @@
-accessing
+outlier detection
 findOutliersSorted
-	
 	"sort by metric to find the bounds"
 	self metricObjects sort.
 	self findBounds.

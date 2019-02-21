@@ -1,3 +1,3 @@
-accessing - object
+accessing
 object: newObject
 	originalObject := newObject

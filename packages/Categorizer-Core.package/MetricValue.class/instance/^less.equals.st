@@ -1,3 +1,3 @@
-comparisititiationn
+comparing
 <= otherMetricValue
 	^ self metric <= otherMetricValue metric

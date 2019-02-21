@@ -1,5 +1,6 @@
 tests
 testOutlierPointsMultivariate
+	"testing the multivariate outlier detection on abstract data. the points x and y coordinates are the two metrics."
 	|out data|
 	data := { "all these points are roughly on a diagonal with an ascend of 0.5"
 		1@2.0.

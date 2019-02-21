@@ -8,10 +8,10 @@
 		"calculateDistancesFrom:with:" : "EB 12/4/2018 23:22",
 		"calculateMeanVector" : "EB 12/4/2018 19:49",
 		"findOutliersSorted" : "EB 12/4/2018 23:32",
-		"lerpMin:max:at:resolution:" : "EB 1/21/2019 16:40",
+		"lerpMin:max:at:resolution:" : "EB 2/21/2019 18:11",
 		"mahalanobisDistanceBetween:and:using:" : "EB 12/4/2018 23:27",
 		"metricCount" : "EB 12/4/2018 19:32",
 		"metricObjects" : "EB 12/4/2018 19:16",
 		"metricObjects:" : "EB 12/4/2018 19:16",
 		"replaceObjectsWithSamples:" : "EB 1/21/2019 16:27",
-		"visualizeDistances:" : "EB 1/21/2019 16:28" } }
+		"visualizeDistances:" : "EB 2/21/2019 18:14" } }

@@ -1,4 +1,4 @@
-accessing
+outlier detection
 findOutliersSorted
 	"mahalanobis distance outlier detection: return the metric objects
 	sorted descending by their weighted distance from the center of the given data set"

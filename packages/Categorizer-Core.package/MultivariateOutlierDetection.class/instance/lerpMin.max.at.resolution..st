@@ -1,4 +1,4 @@
-as yet unclassified
+mahalanobis visualization
 lerpMin: min max: max at: counter resolution: resolution
 	"some fancy interpolation in multivariate space"
 	| integer next result |
@@ -11,8 +11,6 @@ lerpMin: min max: max at: counter resolution: resolution
 		rangei := maxi - mini.
 		next := integer // resolution.
 		factor := (integer \\ resolution) / (resolution - 1).
-		"factor := ((10 ** factor)-1) / 9.
-		result at: i put: (mini + (rangei * factor))."
 		result at: i put: ((10 ** ((mini + 1) log + (factor * ((maxi + 1) log - (mini + 1) log)))) - 1).
 		integer := next].
 	^ result

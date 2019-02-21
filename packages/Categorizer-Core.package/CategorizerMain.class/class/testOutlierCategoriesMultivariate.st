@@ -1,5 +1,7 @@
 tests
 testOutlierCategoriesMultivariate
+	"finds outlier categories by multiple different metrics. Opens the outlier-sorted result list at the end."
+	"CategorizerMain testOutlierCategoriesMultivariate"
 	| cats out result |
 	cats := CategorizerCache default allCategories.
 	"cats := cats copyFrom: 1 to: 500." "limit to some categories, it would take too long otherwise"

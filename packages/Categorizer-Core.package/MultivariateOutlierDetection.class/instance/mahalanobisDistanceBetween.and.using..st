@@ -1,4 +1,4 @@
-as yet unclassified
+private
 mahalanobisDistanceBetween: a and: b using: covarianceInverse
 	"calculates 'sqrt( (a-b)^T * Mat * (a-b) )' "
 	"Does so by calculating 'Mat * (a-b)' first, then the dot product of that result and '(a-b)' "
