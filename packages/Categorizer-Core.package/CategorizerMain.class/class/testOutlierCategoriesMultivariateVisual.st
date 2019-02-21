@@ -16,9 +16,9 @@ testOutlierCategoriesMultivariateVisual
 			withMetrics: {
 				[:cat | (CategoryStats newOn: cat) numberOfPackages].
 				[:cat | (CategoryStats newOn: cat) averageMethodLength].
-				"[:cat | (CategoryStats newOn: cat) numberOfClasses].
+				[:cat | (CategoryStats newOn: cat) numberOfClasses].
 				[:cat | (CategoryStats newOn: cat) numberOfMethods].
-				[:cat | (CategoryStats newOn: cat) numberOfUniqueMethods]."
+				[:cat | (CategoryStats newOn: cat) numberOfUniqueMethods].
 			}
 			progress: bar.
 	].
@@ -27,12 +27,12 @@ testOutlierCategoriesMultivariateVisual
 		result := out findOutliersSorted
 	].
 		
-	"csv export" "(n + 1) log"
+	"csv export"
 	('name;mahalanobisDistance;classes;methods', Character cr,
 		(((result reversed collect: [:m | ((m metrics as: OrderedCollection) collect: [:n | (n + 1) log + rv value]) addFirst: m compareValue asString; addFirst: m object; yourself])
 			collect: [:data | data reduce: [:accu :next | accu , ';' , next]]) reduce: [:accu :next | accu , Character cr , next])) edit.
 	
 
 	('name;mahalanobisDistance;classes;methods', Character cr,
-		((((out visualizeDistances: 100) reversed collect: [:m | ((m metrics as: OrderedCollection) collect: [:n | (n + 1) log]) addFirst: (m compareValue \\ 10) asString; addFirst: m object; yourself])
+		((((out visualizeDistances: 20) reversed collect: [:m | ((m metrics as: OrderedCollection) collect: [:n | (n + 1) log]) addFirst: (m compareValue \\ 10) asString; addFirst: m object; yourself])
 			collect: [:data | data reduce: [:accu :next | accu , ';' , next]]) reduce: [:accu :next | accu , Character cr , next])) edit.
